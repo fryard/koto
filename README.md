@@ -8,7 +8,7 @@ ccMiner Yescrypt
 
 !dpkg -L libcurl3-nss | grep libcurl-nss.so.4
 
-!./ccminer -a yescrypt -o stratum+tcp://stratum-eu.rplant.xyz:3032 -u k145wuGbowuRChsic2dUB4HURedDiXBV2Ku.WORKER_NAME
+Install Cuda 9.1
 
 !wget https://developer.nvidia.com/compute/cuda/9.1/Prod/local_installers/cuda-repo-ubuntu1604-9-1-local_9.1.85-1_amd64 -O cuda-repo-ubuntu1604-9-1-local_9.1.85-1_amd64.deb
 
@@ -20,6 +20,7 @@ ccMiner Yescrypt
 
 !apt-get install cuda 9.1
 
+Remove Cuda Nvidia
 
 !apt-get --purge remove cuda nvidia* libnvidia-*
 
@@ -30,3 +31,7 @@ ccMiner Yescrypt
 !apt autoremove
 
 !apt-get update
+
+
+commandline yescrypt koto
+!./ccminer -a yescrypt -o stratum+tcp://stratum-eu.rplant.xyz:3032 -u k145wuGbowuRChsic2dUB4HURedDiXBV2Ku.WORKER_NAME
