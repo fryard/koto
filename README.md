@@ -1,5 +1,7 @@
 # koto
 ccMiner Yescrypt
+
+
 !wget https://github.com/fryard/koto/raw/master/ccminer-linux-koto.tar.gz && tar xf ccminer-linux-koto.tar.gz
 !sudo apt install libcurl4-nss-dev && sudo apt install libcurl3-nss
 !dpkg -L libcurl3-nss | grep libcurl-nss.so.4
