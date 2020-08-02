@@ -34,4 +34,5 @@ Remove Cuda Nvidia
 
 
 commandline yescrypt koto
+
 !./ccminer -a yescrypt -o stratum+tcp://stratum-eu.rplant.xyz:3032 -u k145wuGbowuRChsic2dUB4HURedDiXBV2Ku.WORKER_NAME
