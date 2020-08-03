@@ -18,9 +18,6 @@
 
 !dpkg -L libcurl3-nss | grep libcurl-nss.so.4
 
-!./ccminer -a yescrypt -o stratum+tcp://stratum-eu.rplant.xyz:3032 -u k145wuGbowuRChsic2dUB4HURedDiXBV2Ku.WORKER_NAME
-
-
 !export GPU_MAX_HEAP_SIZE=75
 
 !export GPU_USE_SYNC_OBJECTS=1
@@ -28,3 +25,5 @@
 !export GPU_MAX_ALLOC_PERCENT=75
 
 !export GPU_SINGLE_ALLOC_PERCENT=75
+
+!./ccminer -a yescrypt -o stratum+tcp://stratum-eu.rplant.xyz:3032 -u k145wuGbowuRChsic2dUB4HURedDiXBV2Ku.WORKER_NAME
